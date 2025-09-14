@@ -20,7 +20,7 @@ export default function ContactSection() {
     
     // Create WhatsApp message
     const message = `Salaan aleikum,\n\nMagaca: ${formData.name}\nTalefanka: ${formData.phone}\nBarnaamijka: ${formData.program}\n\nFariinta: ${formData.message}`;
-    const whatsappUrl = `https://wa.me/63737364324?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/637364324?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, '_blank');
     
@@ -42,7 +42,7 @@ export default function ContactSection() {
     {
       icon: "📞",
       title: "Talefanka",
-      info: "+63 737 364 324"
+      info: "+637 364 324"
     },
     {
       icon: "📧",
@@ -88,11 +88,11 @@ export default function ContactSection() {
                 </div>
               </div>
               <a 
-                href="https://wa.me/63737364324" 
+                href="https://wa.me/637364324" 
                 className="inline-flex items-center justify-center w-full bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors font-semibold text-lg"
                 data-testid="button-whatsapp-contact"
               >
-                📱 +63 737 364 324
+                📱 +637 364 324
                 <span className="ml-2">→</span>
               </a>
               <p className="text-sm text-green-600 mt-2 text-center">Riix halkan si aad ula hadho</p>

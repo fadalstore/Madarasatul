@@ -30,7 +30,7 @@ export default function HeroSection() {
                 🕌 Eeg Barnaamijyada
               </button>
               <a 
-                href="https://wa.me/63737364324" 
+                href="https://wa.me/637364324" 
                 className="bg-secondary text-secondary-foreground px-8 py-3 rounded-lg hover:bg-secondary/90 transition-all duration-300 font-semibold text-center transform hover:scale-105"
                 data-testid="button-whatsapp-hero"
               >

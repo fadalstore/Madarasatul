@@ -74,7 +74,7 @@ export default function Navigation() {
               Nala Soo Xiriir
             </button>
             <a 
-              href="tel:+63737364324" 
+              href="tel:+637364324" 
               className="bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors font-medium"
               data-testid="button-call"
             >
@@ -116,7 +116,7 @@ export default function Navigation() {
                 Nala Soo Xiriir
               </button>
               <a 
-                href="tel:+63737364324" 
+                href="tel:+637364324" 
                 className="bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors font-medium text-center"
                 data-testid="button-call-mobile"
               >

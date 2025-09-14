@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a modern full-stack web application for an Islamic educational institution that teaches Quran reading, memorization, and understanding. The website is bilingual (Arabic/Somali) and serves as both an informational platform and contact system for prospective students. It features a landing page with program information, scheduling details, and integrated WhatsApp communication for enrollment inquiries.
+This is a modern full-stack web application for an Islamic educational institution that teaches Quran reading, memorization, and understanding. The website is bilingual (Arabic/Somali) and serves as both an informational platform and contact system for prospective students. It features a landing page with program information, scheduling details, and integrated WhatsApp communication (+637 364 324) for enrollment inquiries.
 
 ## User Preferences
 

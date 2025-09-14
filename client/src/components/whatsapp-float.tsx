@@ -1,7 +1,7 @@
 export default function WhatsAppFloat() {
   return (
     <a 
-      href="https://wa.me/63737364324" 
+      href="https://wa.me/637364324" 
       className="whatsapp-float"
       data-testid="button-whatsapp-float"
     >

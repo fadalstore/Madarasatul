@@ -33,14 +33,14 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://wa.me/63737364324" 
+                href="https://wa.me/637364324" 
                 className="bg-secondary/20 p-2 rounded-lg hover:bg-secondary/30 transition-colors"
                 data-testid="link-footer-whatsapp"
               >
                 <span className="text-xl">💬</span>
               </a>
               <a 
-                href="tel:+63737364324" 
+                href="tel:+637364324" 
                 className="bg-secondary/20 p-2 rounded-lg hover:bg-secondary/30 transition-colors"
                 data-testid="link-footer-phone"
               >
@@ -76,7 +76,7 @@ export default function Footer() {
           <div>
             <h5 className="text-lg font-semibold mb-4">Nala Soo Xiriir</h5>
             <div className="space-y-3 text-primary-foreground/80">
-              <p data-testid="text-footer-phone">📱 +63 737 364 324</p>
+              <p data-testid="text-footer-phone">📱 +637 364 324</p>
               <p data-testid="text-footer-email">📧 info@madarasadda-quraan.com</p>
               <p data-testid="text-footer-address">📍 Magaalada Muqdisho, Soomaaliya</p>
               <p data-testid="text-footer-hours">🕐 Axad - Khamiis: 8AM - 6PM</p>
