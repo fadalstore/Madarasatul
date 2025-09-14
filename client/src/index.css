@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(60, 9%, 98%);
+  --foreground: hsl(213, 27%, 21%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(213, 27%, 21%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(213, 27%, 21%);
+  --primary: hsl(142, 76%, 26%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(45, 93%, 53%);
+  --secondary-foreground: hsl(213, 27%, 21%);
+  --muted: hsl(123, 25%, 94%);
+  --muted-foreground: hsl(213, 19%, 46%);
+  --accent: hsl(123, 25%, 94%);
+  --accent-foreground: hsl(213, 27%, 21%);
+  --destructive: hsl(356, 90%, 54%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(123, 20%, 89%);
+  --input: hsl(123, 20%, 89%);
+  --ring: hsl(142, 76%, 26%);
+  --chart-1: hsl(142, 76%, 26%);
+  --chart-2: hsl(159, 100%, 36%);
+  --chart-3: hsl(42, 92%, 56%);
+  --chart-4: hsl(147, 78%, 41%);
+  --chart-5: hsl(341, 75%, 50%);
+  --sidebar: hsl(0, 0%, 100%);
+  --sidebar-foreground: hsl(213, 27%, 21%);
+  --sidebar-primary: hsl(142, 76%, 26%);
+  --sidebar-primary-foreground: hsl(0, 0%, 98%);
+  --sidebar-accent: hsl(123, 25%, 94%);
+  --sidebar-accent-foreground: hsl(213, 27%, 21%);
+  --sidebar-border: hsl(123, 20%, 89%);
+  --sidebar-ring: hsl(142, 76%, 26%);
+  --font-sans: Inter, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --font-amiri: Amiri, serif;
+  --font-arabic: "Noto Sans Arabic", sans-serif;
+  --radius: 0.75rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(142, 76%, 26% / 0.00);
+  --shadow-xs: 0px 2px 0px 0px hsl(142, 76%, 26% / 0.00);
+  --shadow-sm: 0px 2px 0px 0px hsl(142, 76%, 26% / 0.00), 0px 1px 2px -1px hsl(142, 76%, 26% / 0.00);
+  --shadow: 0px 2px 0px 0px hsl(142, 76%, 26% / 0.00), 0px 1px 2px -1px hsl(142, 76%, 26% / 0.00);
+  --shadow-md: 0px 2px 0px 0px hsl(142, 76%, 26% / 0.00), 0px 2px 4px -1px hsl(142, 76%, 26% / 0.00);
+  --shadow-lg: 0px 2px 0px 0px hsl(142, 76%, 26% / 0.00), 0px 4px 6px -1px hsl(142, 76%, 26% / 0.00);
+  --shadow-xl: 0px 2px 0px 0px hsl(142, 76%, 26% / 0.00), 0px 8px 10px -1px hsl(142, 76%, 26% / 0.00);
+  --shadow-2xl: 0px 2px 0px 0px hsl(142, 76%, 26% / 0.00);
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+}
+
+.dark {
+  --background: hsl(0, 0%, 0%);
+  --foreground: hsl(200, 6%, 91%);
+  --card: hsl(228, 9%, 10%);
+  --card-foreground: hsl(0, 0%, 85%);
+  --popover: hsl(0, 0%, 0%);
+  --popover-foreground: hsl(200, 6%, 91%);
+  --primary: hsl(142, 76%, 26%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(45, 93%, 53%);
+  --secondary-foreground: hsl(213, 27%, 21%);
+  --muted: hsl(0, 0%, 9%);
+  --muted-foreground: hsl(210, 3%, 46%);
+  --accent: hsl(205, 70%, 7%);
+  --accent-foreground: hsl(142, 76%, 26%);
+  --destructive: hsl(356, 90%, 54%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(210, 5%, 14%);
+  --input: hsl(207, 27%, 18%);
+  --ring: hsl(142, 76%, 26%);
+  --chart-1: hsl(142, 76%, 26%);
+  --chart-2: hsl(159, 100%, 36%);
+  --chart-3: hsl(42, 92%, 56%);
+  --chart-4: hsl(147, 78%, 41%);
+  --chart-5: hsl(341, 75%, 50%);
+  --sidebar: hsl(228, 9%, 10%);
+  --sidebar-foreground: hsl(0, 0%, 85%);
+  --sidebar-primary: hsl(142, 76%, 26%);
+  --sidebar-primary-foreground: hsl(0, 0%, 98%);
+  --sidebar-accent: hsl(205, 70%, 7%);
+  --sidebar-accent-foreground: hsl(142, 76%, 26%);
+  --sidebar-border: hsl(205, 15%, 26%);
+  --sidebar-ring: hsl(142, 76%, 26%);
+  --font-sans: Inter, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --font-amiri: Amiri, serif;
+  --font-arabic: "Noto Sans Arabic", sans-serif;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .islamic-pattern {
+    background-image: 
+      radial-gradient(circle at 25% 25%, rgba(13, 117, 51, 0.1) 1px, transparent 1px),
+      radial-gradient(circle at 75% 75%, rgba(212, 175, 55, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+  }
+  
+  .geometric-border {
+    background: linear-gradient(45deg, var(--primary) 2px, transparent 2px, transparent 6px, var(--secondary) 6px, var(--secondary) 8px, transparent 8px);
+    background-size: 16px 16px;
+  }
+  
+  .whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    background: #25D366;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-float:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
+  }
+  
+  .fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .font-amiri {
+    font-family: var(--font-amiri);
+  }
+  
+  .font-arabic {
+    font-family: var(--font-arabic);
+  }
+}
